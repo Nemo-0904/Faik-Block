@@ -1,0 +1,356 @@
+
+.container-wrapper {
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .7);
+    z-index: 100;
+}
+
+.joinus-container{ 
+    display: flex;
+    width: 20rem;
+    height: 50rem;
+    position: fixed;
+    justify-content: center;
+    justify-self: center;
+    z-index: 100;
+    right: 0%;
+    margin-top: 0rem;
+    background-color: #c1c8e4;
+    overflow: hidden;
+  }
+
+.joinus-container .btn {
+    margin-bottom: 3rem;
+  }
+
+.joinus-container .design{
+    z-index: -1;
+}
+
+.icon-close-joinus{
+    width: 2rem;
+    height: 2rem;
+    position:fixed;
+    z-index: 100;
+    margin-top: -45rem;
+    margin-left: 26rem;
+}
+
+.main-login-container{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    position: fixed;
+    z-index: 100;
+    margin-top: 4rem;
+    background-color: whitesmoke;
+    border-radius:2rem;
+}
+
+.login-container-mobile{
+    display: none;
+}
+
+.login-container{
+    position: relative;
+    border-radius: 2rem;
+    z-index: 11;
+    width: 50rem;
+    height: 30rem;
+    display: grid;
+    overflow: hidden;
+    box-shadow: 0 1.4rem 2.8rem rgba(0, 0, 0, 0.25),
+            0 1rem 1rem rgba(0, 0, 0, 0.22);
+}
+
+.overlay{
+    position: relative;
+    z-index:11;
+}
+
+.design {
+    z-index:10;
+}
+
+.rotate-45{
+    transform: rotate(-45deg);
+}
+.design .pill-1{
+    position:absolute;
+    bottom: -0.5rem;
+    left: -4rem;
+    width: 6rem;
+    height: 18rem;
+    border-radius:5rem;
+    background: linear-gradient(to right, #8860D0,#5680e9, #5AB9EA);
+    border: 0.5rem solid #84ceeb;
+}
+
+.design .pill-2{
+    position: absolute;
+    top: -10rem;
+    left: -5rem;
+    height: 30rem;
+    width: 12rem;
+    border-radius:20rem;
+    background: linear-gradient(to right, #8860D0,#5680e9, #5AB9EA);
+    border: 1rem solid #84ceeb;
+}
+
+.design .pill-3{
+    position: absolute;
+    top: -10rem;
+    left: 12rem;
+    height: 18rem;
+    width: 6rem;
+    background: linear-gradient(to right, #8860D0, #5680e9 , #5AB9EA);
+    border-radius:5rem;
+    border: 0.5rem solid #84ceeb;
+   
+}
+
+.design .pill-4{
+    position: absolute;
+    bottom:-12rem;
+    left: 19rem;
+    width: 8rem;
+    height: 20rem;
+    border-radius: 7rem;
+    background: linear-gradient(to left, #5680e9 10%, #5AB9EA , #84ceeb);
+}
+
+.sign-up-div, .login-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+}
+
+.sign-up-div{
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.login-div{
+    width: 50%;
+    z-index: 2;   
+}
+
+form{
+    background-color: white;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 5rem;
+    text-align: center;
+}
+
+form h1{
+    font-weight: bold;
+    margin: 2rem;
+    margin-bottom: 0rem;
+    font-size: 2rem;
+}
+
+form h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    font-size: medium;
+}
+
+input{
+    background-color: #eee;
+    padding: 1.2rem 1.5rem;
+    margin: 0.8rem 1.5rem;
+    width: 100%;
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+}
+
+.icon-close {
+    width: 2rem;
+    height: 2rem;
+    position:fixed;
+    z-index: 12;
+    margin-top: 1rem;
+    margin-left: 45.5rem;
+}
+
+a{
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 1.5rem 0;
+}
+
+.forgot-password a {
+    color: black;
+}
+
+.forgot-password{
+    color:grey;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.btn{
+   color: black;
+   background:linear-gradient(to right, #8860D0 ,#5AB9EA); 
+   width: 10rem;
+   height: 2.8rem;
+   margin: 1.5rem;
+   border-radius: 2rem;
+   outline: none;
+   font-size: 1.2rem;
+   font-weight: 400;
+   transition: transfrom 80ms ease-in;
+   cursor: pointer;
+   border: 0.1rem solid black;
+}
+
+.btn:active{
+  transform: scale(0.90);  
+}
+
+#signup , #login{
+    border: 0.1rem solid black;
+    margin-top: 6.5rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #8860D0, #5AB9EA);
+    box-shadow: rgba(0, 0, 0, 0.45) 0rem 2.5rem 2rem -2rem;
+}
+
+.login-container.right-panel-active .sign-up-div{
+    transform: translateX(100%);
+    opacity: 1;
+    z-index: 5;
+}
+
+.login-container.right-panel-active .login-div {
+    transform: translateX(100%);
+}
+
+.overlay-container{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+    z-index: 100;
+    background-color: #c1c8e4;
+}
+
+.login-container.right-panel-active .overlay-container{
+    transform: translateX(-100%);
+}
+
+.overlay{
+    position: relative;
+    color: black;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.login-container.right-panel-active .overlay{
+    transform: translateX(50%);
+}
+
+.overlay-left , .overlay-right{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0rem;
+    text-align: center;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    transform:translateX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.overlay-right  h1 , .overlay-left h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.overlay-left p , .overlay-right p{
+    color: black;
+    font-size: 1.2rem;
+    width: 15rem;
+}
+
+.overlay-left{
+    transform: translateX(-20%);
+}
+
+.overlay-right{
+    right: 0;
+    transform: translateX(0);
+}
+
+.login-container.login-container.right-panel-active .overlay-left{
+    transform: translateX(0);
+}
+
+.login-container.right-panel-active .overlay-right{
+    transform: translateX(20%);
+}
+
+.report-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 25rem;
+    margin-top: -25rem;
+    border: solid 0.1rem silver;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 1.2rem ;
+    z-index:100;
+    position: relative;
+    background-color: black;
+    background: linear-gradient(to right, #ffffff, rgb(245, 210, 245), rgb(209, 223, 250), #dde3ff, #cad1fa, rgb(245, 210, 245), #ffffff);
+}
+
+.report-container input{
+    height: 10rem;
+    border-radius: 0rem;
+}
+
+.report-container .submit-report{
+    width: 10rem;
+    height: 3rem;
+    background:linear-gradient(to right, #8860D0 ,#5AB9EA); 
+    border-radius: 1rem;
+}
+
+.report-container label{
+    font-size: 4rem !important;
+}
+
+
+ 

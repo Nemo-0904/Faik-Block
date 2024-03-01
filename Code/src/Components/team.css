@@ -1,0 +1,120 @@
+
+  .AboutContent-team {
+    display: flex;
+  width:100%;
+  background-color:black;
+  height: 50rem;
+  }
+  
+  .card-team {
+    height: 45rem;
+    width:22%;
+     flex-direction: column;
+    margin:1.1rem;
+     align-items: center;
+    text-align: center; 
+    margin-bottom: 1rem;
+    border-top-left-radius:6rem;
+     border-top-right-radius:6rem;
+     border-bottom-right-radius: 5rem;
+      border-bottom-left-radius: 5rem;
+    overflow: hidden;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    background: rgb(7, 24, 30);
+  }
+  
+  .card-content-team {
+    
+    padding-bottom: calc(var(--numcards) * var(--card-top-offset));
+    margin-bottom: var(--card-margin);
+    position:relative; 
+  }
+  
+  .card-text-team {
+    
+    flex: 1;
+    padding: 1rem;
+    color: rgb(148, 199, 220);
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  .card-image-team {
+    flex: 1;
+    display: flex;
+    padding-top: 0.9rem;
+    height: 19rem;
+    width:100%;
+    /* height: 50%; */
+    justify-content: center; 
+    align-items: center; 
+    
+    
+  }
+  
+  .card-img-team {
+    max-width: 100%;
+    max-height: 100%; 
+    border-radius: 100%; 
+    transition: transform 1.7s ease-in-out;
+  }
+  .card-img-team:hover {
+    transform: translateY(35px); 
+    transform: scale(1.1); 
+  }
+  
+  .card-team h1 {
+    font-size: 2.3rem;
+    margin-top: 1rem;
+    letter-spacing: 0.08em;
+    font-family: 'Righteous', sans-serif;
+    align-items: center;
+   font-family: "Smooch Sans", sans-serif;
+  
+  }
+  .card-team h2{
+     font-size: 2.3rem;
+     font-family: "Smooch Sans", sans-serif;
+  }
+  .card-team h3 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+     font-family: "Smooch Sans", sans-serif;
+  
+  
+  }
+  
+  .Socials-team{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+  
+  }
+  
+  
+  .Socials-team{
+    transition: transform 0.3s ease-in-out; 
+  color: white;
+  }
+  .Socials-team a:visited {
+    color: inherit; /* or specify the color you want for visited links */
+  }
+  .Socials-team a {
+    margin-right: 1rem;
+    transition: transform 0.6s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .Socials-team a:hover {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+  }
+  .card-text-team.h1,
+  .card-text-team.h2,
+  .card-text-team.h3 {
+   padding-bottom: 4rem;
+  
+  }
+
+  .icon{
+    color: white;
+  }

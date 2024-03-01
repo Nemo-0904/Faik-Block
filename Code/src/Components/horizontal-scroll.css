@@ -1,0 +1,78 @@
+
+
+.scroll-container {
+  
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  /* Make the container full-width */
+  height: 7rem;
+  /* Make the container full-height */
+}
+
+.scroll-content {
+  background-color: black;
+  display: flex;
+  animation: scroll 50s linear infinite;
+  /* Adjust the duration for the entire scroll */
+}
+
+.image {
+  width: 16rem;
+  /* Adjust the width of your images for larger screens */
+  height: 7rem;
+  /* Maintain aspect ratio */
+  margin-right: 3rem;
+  /* Adjust the spacing between images for larger screens */
+  margin-left:3rem;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+
+  .image{
+    width: 100%;
+    /* Make images full-width for smaller screens */
+    height: auto;
+    /* Allow images to scale with the width */
+    margin-right: 0;
+    /* Remove spacing between images for smaller screens */
+    margin-bottom: 1rem;
+    /* Add spacing below images for smaller screens */
+  }
+
+  .scroll-content {
+    animation: scroll 50s linear infinite;
+    /* Adjust the duration for smaller screens */
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-79.3%);
+    /* Adjust to match the width of your images */
+  }
+}
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0%);
+  }
+  /* to{
+    transform: translateX(-10%);
+  } */
+  /* to{
+    transform: translateX(-65%);
+  } */
+  to {
+    transform: translateX(-81%); /* Adjust to match the width of your images */
+  }
+}

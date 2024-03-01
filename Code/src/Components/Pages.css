@@ -1,0 +1,244 @@
+.page1-container , .page2-container , .page3-container {
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border: none;
+    width: 30rem;
+    height: 35rem;
+    /* margin-top: 4.5rem; */
+    /* position: relative; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border: solid 0.1rem silver;
+    box-shadow: rgba(0, 0, 0, 0.3) 0rem 1.9rem 3.8rem, rgba(0, 0, 0, 0.22) 0rem 1.5rem 1.2rem;
+    background-color:transparent;
+}
+
+/* display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+margin-top: 4rem;
+border: solid 0.1rem silver;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+background-color:transparent; */
+
+
+.tick-icon1{
+    height: 8rem;
+    width: 8rem;
+    /* margin-left: 5rem; */
+    margin-top: -4rem;
+    position: relative;
+    background-image: url(./Verification-Blue-Tick.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.page2-container h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    /* margin-bottom: 3rem; */
+}
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5.5rem;
+    margin-bottom: 3rem;
+    /* margin-left: 1.2rem; */
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.warning-icon{
+    height: 2rem;
+    width: 2rem;
+    padding-top: 0.1rem;
+    margin-right: .3rem;
+    color: #cf4543;
+}
+
+.details{
+    display: grid;
+}
+
+.details p {
+    justify-self: center;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.1rem;
+    border-radius:1rem;
+    /* -webkit-backface-visibility: hidden; */
+}
+
+.payment-btn {
+    height: 3rem;
+    width: 12rem;
+    font-size:1.5rem ;
+    font-weight: 700;
+    border-radius: 1.2rem;
+    border: 0.1rem solid black;
+    background: linear-gradient(to right, #8860D0, #5AB9EA);
+    box-shadow: rgba(0, 0, 0, 0.3) 0rem 1.9rem 3.8rem, rgba(0, 0, 0, 0.22) 0rem 1.5rem 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.payment-btn:active {
+    transform: scale(0.90);
+}
+
+.report-btn {
+    height: 3rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1.2rem;
+    border: 0.1rem solid black;
+    background: linear-gradient(to right, #8860D0, #5AB9EA);
+    box-shadow: rgba(0, 0, 0, 0.3) 0rem 1.9rem 3.8rem, rgba(0, 0, 0, 0.22) 0rem 1.5rem 1.2rem;
+    /* margin-left: 1rem; */
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.report-btn:active {
+    transform: scale(0.90);
+}
+
+.go-back{
+    margin-top: 2rem;
+    color: blueviolet;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.go-back:hover{
+    color: blue;
+}
+
+
+.out-of{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.page2-container .payment-btn{
+    opacity: 0.8;
+}
+
+.rubber_stamp {
+    font-family: 'Vollkorn', serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    border: 0.5rem solid red;
+    float: left;
+    padding: 1rem .7rem;
+    border-radius: 1rem;
+
+    opacity: 0.7;
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    position: absolute;
+    z-index: 100 !important;
+    margin: rem 0rem 10rem 6rem; 
+}
+
+.fake-stamp {
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 14rem;
+    font-weight: bolder;
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: red;
+    border: 0.8rem double red;
+    float: left;
+    padding: 1rem .7rem;
+    border-radius: 1rem;
+
+    opacity: 0.7;
+    -webkit-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    position: absolute;
+    right: 28%;
+    z-index: 9 !important;
+    margin:rem 10rem 10rem 10rem; 
+
+}
+
+.div-for-img{
+    height: 9rem;
+    width: 14rem;
+    margin-top: 2rem;
+    /* margin-left: 5rem; */
+    background-image: url(./52Z_2110.w012.n001.9B.p12.9-Photoroom.png-Photoroom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    z-index: 10;
+}
+
+ p {
+    justify-self: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1.1rem;
+    z-index: 10;
+}
+
+.out-off{
+    margin-top: -2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
