@@ -95,15 +95,15 @@ Extensions:
 
 ## 👨‍💻Team Members
 
-- [Vedhas Naik- ](https://github.com/NaikVedhas) [LinkedIn](https://www.linkedin.com/in/vedhas-naik-005378253/) :
-- [Aastha mhatre- ](https://github.com/Aastha2675) [LinkedIn](https://www.linkedin.com/in/aastha-mhatre-3226722b0/) :
-- [Nithya cherala - ](https://github.com/Nemo-0904) [LinkedIn](https://www.linkedin.com/in/nithyacherala/) :
-- [Princy Malewar -](https://github.com/Princy18Human) [LinkedIn](https://www.linkedin.com/in/princy-malewar-62b8b6257/) : 
+- [Vedhas Naik- ](https://github.com/NaikVedhas) [LinkedIn](https://www.linkedin.com/in/vedhas-naik-005378253/)
+- [Aastha mhatre- ](https://github.com/Aastha2675) [LinkedIn](https://www.linkedin.com/in/aastha-mhatre-3226722b0/)
+- [Nithya cherala - ](https://github.com/Nemo-0904) [LinkedIn](https://www.linkedin.com/in/nithyacherala/)
+- [Princy Malewar -](https://github.com/Princy18Human) [LinkedIn](https://www.linkedin.com/in/princy-malewar-62b8b6257/) 
 
 ## 👨‍🏫Mentors
 
-- [Sarvagnya Purohit - ](https://github.com/saRvaGnyA) [LinkedIn](https://www.linkedin.com/in/sarvagnyapurohit/) :e-mail: 
-- [Devayani Chandane - ](https://github.com/devayani03) [LinkedIn](https://www.linkedin.com/in/devayani-chandane-32b70326b/) :e-mail: 
+- [Sarvagnya Purohit - ](https://github.com/saRvaGnyA) [LinkedIn](https://www.linkedin.com/in/sarvagnyapurohit/)
+- [Devayani Chandane - ](https://github.com/devayani03) [LinkedIn](https://www.linkedin.com/in/devayani-chandane-32b70326b/) 
 
 ## 📱Screenshots
 Screenshots of the Project: 
