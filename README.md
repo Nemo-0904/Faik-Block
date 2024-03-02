@@ -43,10 +43,10 @@
 
 ## 🔗Links
 
-- [GitHub Repository](https://github.com/NaikVedhas/Fake-Product-Identification-System)
-- [Demo Video](https://bit.ly/3HVumiF)
+- [GitHub Repository](https://github.com/NaikVedhas/Faik-Block)
+- [Demo Video](https://drive.google.com/file/d/19ld27hdqQmjgfacz6ZpuO6YzmKGrDHRo/view?usp=sharing)
 - [Drive Link to Screenshots of your project](https://drive.google.com/drive/folders/1955mXzzcIVcYfn1tcpJ8Nlackz-ZUSTg?usp=drive_link)
-- [Hosted Website Link]()
+- [Hosted Website Link](https://faikblock.vercel.app/)
 
 
 #### Front-end
