@@ -80,20 +80,7 @@ Extensions:
 -  COMPANYS CAN REGISTRATION IN THEIR OWN CURRENCY: It will be possible to Use currency depending on the country. There wont be any compulsion to use standard currencies only.
 -  While registering, we will take 5% of the product's cost as fee for using our platform. 
 
-## 💸Applications
-
-Authentication of Luxury Goods: 
-Luxury brands use blockchain to authenticate products, assigning each item a unique digital certificate stored on the blockchain. Consumers can verify authenticity by accessing this certificate, helping to combat counterfeiters.
-
-Pharmaceutical Traceability: The pharmaceutical industry can implement blockchain-based systems to track the production, distribution, and sale of drugs. By recording each transaction on the blockchain, stakeholders can ensure the integrity of the supply chain and prevent the distribution of counterfeit or substandard medications.
-
-Authentication of Artwork and Collectibles: Artists and collectors can use blockchain technology to verify the authenticity of artwork and collectibles. By registering each piece on the blockchain, stakeholders can create a tamper-proof record of ownership and provenance, reducing the risk of fraud and forgery in the art market.
-
-Overall, the application of a Fake Block Identification System using blockchain technology has the potential to enhance authenticity verification across a wide range of industries, providing stakeholders with a secure and transparent way to verify the authenticity of goods, documents, and identities.
-
-MONETISATION: 
-
-Monetizing a Fake Block Identification System using blockchain technology involves offering services or solutions related to authenticity verification for a fee. Here are several monetization strategies for such a system:
+## 💸MONETISATION: 
 
 1. A total of 5% is taken from the products cost. This is will be a part of the registration and usage fee. No separate fees will later be taken.
 2. Advertisement
@@ -108,15 +95,15 @@ Monetizing a Fake Block Identification System using blockchain technology involv
 
 ## 👨‍💻Team Members
 
-- [Vedhas Naik- ](https://github.com/NaikVedhas) [EMail](vedhasnaik121@gmail.com) :e-mail:
-- [Aastha mhatre- ](https://github.com/Aastha2675) [EMail](avmhatre_b22@el.vjti.ac.in) :e-mail:
-- [Nithya cherala - ](https://github.com/Nemo-0904) [EMail](nmcherala_b22@el.vjti.ac.in) :e-mail:
-- [Princy Malewar -](https://github.com/Princy18Human) [EMail](malewarpriyancy@gmail.com) :e-mail: 
+- [Vedhas Naik- ](https://github.com/NaikVedhas) [LinkedIn](https://www.linkedin.com/in/vedhas-naik-005378253/) :
+- [Aastha mhatre- ](https://github.com/Aastha2675) [LinkedIn](https://www.linkedin.com/in/aastha-mhatre-3226722b0/) :
+- [Nithya cherala - ](https://github.com/Nemo-0904) [LinkedIn](https://www.linkedin.com/in/nithyacherala/) :
+- [Princy Malewar -](https://github.com/Princy18Human) [LinkedIn](https://www.linkedin.com/in/princy-malewar-62b8b6257/) : 
 
 ## 👨‍🏫Mentors
 
-- [Sarvagnya Purohit - ](https://github.com/saRvaGnyA) [EMail](sarvagnyapurohit@gmail.com) :e-mail: 
-- [Devayani Chandane - ](https://github.com/devayani03) [EMail](sarvagnyapurohit@gmail.com) :e-mail: 
+- [Sarvagnya Purohit - ](https://github.com/saRvaGnyA) [LinkedIn](https://www.linkedin.com/in/sarvagnyapurohit/) :e-mail: 
+- [Devayani Chandane - ](https://github.com/devayani03) [LinkedIn](https://www.linkedin.com/in/devayani-chandane-32b70326b/) :e-mail: 
 
 ## 📱Screenshots
 Screenshots of the Project: 
