@@ -56,12 +56,11 @@
 - Reactjs
 - Codepen
 
-#### Back-end
+#### Smart Contract
 - Solidity
-
-Extensions:
 - Metamask
-- family
+- Family
+- Remix IDE
 
 
 
