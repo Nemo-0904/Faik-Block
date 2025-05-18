@@ -50,7 +50,7 @@
     background-image: url(./fake.vs.real.jpg);
 }
 
- @media ( 992px <= width <= 1200px){
+ @media ( 992px <= width <= 1200px){ #tablet 
     .aboutus-container{
         height: 50rem;
     }
@@ -63,7 +63,7 @@
     }
  }
 
- @media (768px <= width <= 992px) {
+ @media (768px <= width <= 992px) {  medium tablets
     .column1 ,.column2{
         width: 50rem;
         height: 52rem;
@@ -78,7 +78,7 @@
     }
  }
 
- @media (600px <= width <= 768px) {
+ @media (600px <= width <= 768px) {   #Small Tablets
     .column1 , .column2{
         width: 60rem;
         height: 62rem;
@@ -93,7 +93,7 @@
     }
  }
 
- @media ( 100px <= width < 330px) {
+ @media ( 100px <= width < 330px) { Very Small Screens
     .aboutus-container{
         display: flex;
         flex-direction: column;
