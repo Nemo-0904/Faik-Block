@@ -63,7 +63,7 @@
     }
  }
 
- @media (768px <= width <= 992px) {  medium tablets
+ @media (768px <= width <= 992px) {  #medium tablets
     .column1 ,.column2{
         width: 50rem;
         height: 52rem;
@@ -93,7 +93,7 @@
     }
  }
 
- @media ( 100px <= width < 330px) { Very Small Screens
+ @media ( 100px <= width < 330px) { #Very Small Screens
     .aboutus-container{
         display: flex;
         flex-direction: column;
